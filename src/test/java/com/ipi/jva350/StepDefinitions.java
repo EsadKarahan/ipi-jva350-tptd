@@ -17,7 +17,7 @@ public class StepDefinitions {
 
     @Given("today is Sunday")
     public void today_is_Sunday() {
-        today = "Sunday";
+        today = "Friday";
     }
 
     @When("I ask whether it's Friday yet")

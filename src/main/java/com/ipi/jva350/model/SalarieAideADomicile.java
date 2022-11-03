@@ -21,11 +21,11 @@ public class SalarieAideADomicile {
     private String nom;
 
     public static List<DayOfWeek> joursHabituellementTravailles = new ArrayList<DayOfWeek>() {{
-        add(DayOfWeek.MONDAY);
-        add(DayOfWeek.TUESDAY);
-        add(DayOfWeek.WEDNESDAY);
-        add(DayOfWeek.THURSDAY);
-        add(DayOfWeek.FRIDAY);
+        joursHabituellementTravailles.add(DayOfWeek.MONDAY);
+        joursHabituellementTravailles.add(DayOfWeek.TUESDAY);
+        joursHabituellementTravailles.add(DayOfWeek.WEDNESDAY);
+        joursHabituellementTravailles.add(DayOfWeek.THURSDAY);
+        joursHabituellementTravailles.add(DayOfWeek.FRIDAY);
     }};
     private LocalDate moisEnCours;
     private LocalDate moisDebutContrat;
